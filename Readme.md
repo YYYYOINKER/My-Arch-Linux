@@ -13,20 +13,19 @@ Welcome to my Arch Linux desktop setup! This is a brief overview of my configura
 ## System Details
 
 - **OS**: Arch Linux x86_64
-- **Host**: Aspire A515-54 V
+- **Host**: Aspire A515-54 V1.24
 - **Kernel**: 6.8.7-arch1-1
-- **Uptime**: 28 mins
 - **Packages**: 736 (pacman)
-- **Shell**: bash 5.2.26
+- **Shell**: Bash 5.2.26
 - **Resolution**: 1920x1080
 - **Window Manager**: dwm
 - **Theme**: Adwaita [GTK2/3]
-- **Icons**: Adwaita
-- **Terminal**: alacritty
-- **Terminal Font**: Hack N
+- **Icons**: Adwaita [GTK2/3]
+- **Terminal**: Alacritty
+- **Terminal Font**: Hack Nerd Font
 - **CPU**: Intel i7-10510U (8) @ 4.900GHz
 - **GPU**: Intel CometLake-U
-- **Memory**: 2176MiB / 1581MiB
+- **Memory**: 2176MiB / 15817MiB
 
 ## Featured Software
 
