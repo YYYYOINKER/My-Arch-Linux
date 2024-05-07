@@ -1,5 +1,5 @@
 #!/bin/sh
-xrdb -load ~/.Xresources
+xrdb -load ~/.Xresources &
 source ~/.bash_profile &
 ~/statusbar.sh &
 # Set the desktop background
@@ -7,7 +7,7 @@ feh --bg-scale /home/abuser/Pictures/wallYES.jpg &
 
 # Start system tray applications
 picom &
-nmcli radio wifi on
+nmcli radio wifi on &
 xbindkeys &
 numlockx on &
 ~/.config/autostart-scripts/start-nm-applet.sh &
