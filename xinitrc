@@ -11,7 +11,7 @@ nmcli radio wifi on &
 xbindkeys &
 numlockx on &
 ~/.config/autostart-scripts/start-nm-applet.sh &
-export PATH="$PATH:/usr/bin:$HOME/scripts"
+export PATH="$PATH:/usr/bin:$HOME/scripts" &
 killall trayer; trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --widthtype percent --width 10 --transparent true --tint 0x000000 --height 20 --distance 80 --distancefrom top --margin 30 &
 nm-applet &
 
