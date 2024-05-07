@@ -1,0 +1,40 @@
+window:
+  opacity: 0.85
+  padding: 
+    x: 200
+    y: 200
+
+font:
+  normal:
+    family: 'Hack Nerd Font'
+    style: Regular
+  bold:
+    family: 'Hack Nerd Font'
+    style: Bold
+  italic:
+    family: 'Hack Nerd Font'
+    style: Italic
+  size: 11.0
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '0x282c34'
+    foreground: '0xdcdfe4'
+  normal:
+    black:   '0x1c1f24'
+    red:     '0xc06c84'
+    green:   '0x98c379'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0xeff1f5'
+
+decorations: full
+
