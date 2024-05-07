@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Define the path for the screenshot
+screenshot_path="$HOME/Pictures/Screenshots"
+mkdir -p "$screenshot_path"  # Ensure the directory exists
+filename="$(date +'%Y-%m-%d_%H-%M-%S').png"
+file="$screenshot_path/$filename"
+
+# Use scrot with -s to allow area selection
+scrot -s "$file"
+
+# Check if the screenshot was taken (file exists)
+if [ -f "$file" ]; then
+    # Copy the screenshot to the clipboard
+    xclip -selection clipboard -target image/png -i "$file"
+    
+    # Provide feedback via terminal and notify-send that the screenshot has been taken
+    echo "Screenshot saved to $file"
+    notify-send "Screenshot Taken" "Saved as $file"
+else
+    echo "No screenshot taken."
+    notify-send "Screenshot Error" "No screenshot was taken."
+fi
+
+# Log the action to a file
+lastactionfile="${XDG_DATA_HOME:-$HOME/.local/share}/lastaction"
+echo "Screenshot taken on $(date): $file" >> "$lastactionfile"
+
