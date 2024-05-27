@@ -2,7 +2,7 @@ while true; do
     
     BRIGHTNESS_STATUS=$(light -s sysfs/backlight/intel_backlight -G | awk '{print int($1)}')
 
-    # Read CPU Temperature
+    # Read CPU Temperature devide by 1000
     TEMP_C=$(( $(cat /sys/class/thermal/thermal_zone0/temp) /1000))
 
     # Determine temperature icon
