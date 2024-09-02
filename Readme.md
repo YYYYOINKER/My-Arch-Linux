@@ -1,4 +1,4 @@
-# My Arch Linux Desktop
+# My Arch Linux Desktop (outdated)
 
 Welcome to my Arch Linux desktop setup! This is a brief overview of my configuration, themes, and the tools I use to make my Linux experience smooth and functional.
 
